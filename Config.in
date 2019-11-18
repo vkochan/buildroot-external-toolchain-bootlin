@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_TOOLCHAIN_BOOTLIN_PATH/toolchain/toolchain-external-bootlin-x86-i686-musl/Config.in.options"

@@ -1,0 +1,9 @@
+if BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_X86_I686_MUSL
+
+config BR2_TOOLCHAIN_EXTERNAL_PREFIX
+	default "i686-buildroot-linux-musl"
+
+config BR2_PACKAGE_PROVIDES_TOOLCHAIN_EXTERNAL
+	default "toolchain-external-bootlin-x86-i686-musl"
+
+endif
