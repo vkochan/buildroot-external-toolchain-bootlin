@@ -1,0 +1,9 @@
+if BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_ARMV7_EABIHF_MUSL
+
+config BR2_TOOLCHAIN_EXTERNAL_PREFIX
+	default "arm-buildroot-linux-musleabihf"
+
+config BR2_PACKAGE_PROVIDES_TOOLCHAIN_EXTERNAL
+	default "toolchain-external-bootlin-armv7-eabihf-musl"
+
+endif
