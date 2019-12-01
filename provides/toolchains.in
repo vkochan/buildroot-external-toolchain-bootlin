@@ -11,6 +11,24 @@ config BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_X86_I686_MUSL
 
 	  https://toolchains.bootlin.com
 
+config BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_X86_I686_UCLIBC
+	bool "Bootlin x86-i686-uclibc toolchain"
+	depends on BR2_x86_i686
+	select BR2_USE_WCHAR
+	select BR2_ENABLE_LOCALE
+	select BR2_TOOLCHAIN_HAS_THREADS
+	select BR2_TOOLCHAIN_HAS_THREADS_DEBUG
+	select BR2_TOOLCHAIN_HAS_THREADS_NPTL
+	select BR2_TOOLCHAIN_EXTERNAL_UCLIBC
+	select BR2_TOOLCHAIN_HEADERS_AT_LEAST_4_1
+	select BR2_TOOLCHAIN_GCC_AT_LEAST_7
+	select BR2_TOOLCHAIN_EXTERNAL_HAS_CXX
+	help
+	  Bootlin toolchain for x86-i686 platform built with
+	  binutils 2.29.1, uclibc 1.0.30, gcc 7.3.0, linux 4.1.52
+
+	  https://toolchains.bootlin.com
+
 config BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_ARMV7_EABIHF_UCLIBC
 	bool "Bootlin armv7-eabihf-uclibc toolchain"
 	depends on BR2_arm
