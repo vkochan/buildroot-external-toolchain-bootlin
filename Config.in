@@ -4,3 +4,4 @@ source "$BR2_EXTERNAL_TOOLCHAIN_BOOTLIN_PATH/toolchain/toolchain-external-bootli
 source "$BR2_EXTERNAL_TOOLCHAIN_BOOTLIN_PATH/toolchain/toolchain-external-bootlin-armv7-eabihf-musl/Config.in.options"
 source "$BR2_EXTERNAL_TOOLCHAIN_BOOTLIN_PATH/toolchain/toolchain-external-bootlin-armv7-eabihf-uclibc/Config.in.options"
 source "$BR2_EXTERNAL_TOOLCHAIN_BOOTLIN_PATH/toolchain/toolchain-external-bootlin-armv7-eabihf-glibc/Config.in.options"
+source "$BR2_EXTERNAL_TOOLCHAIN_BOOTLIN_PATH/toolchain/toolchain-external-bootlin-aarch64-musl/Config.in.options"

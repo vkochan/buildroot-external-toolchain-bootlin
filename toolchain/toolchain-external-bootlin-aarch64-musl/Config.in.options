@@ -1,0 +1,9 @@
+if BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_AARCH64_MUSL
+
+config BR2_TOOLCHAIN_EXTERNAL_PREFIX
+	default "aarch64-buildroot-linux-musl"
+
+config BR2_PACKAGE_PROVIDES_TOOLCHAIN_EXTERNAL
+	default "toolchain-external-bootlin-aarch64-musl"
+
+endif
