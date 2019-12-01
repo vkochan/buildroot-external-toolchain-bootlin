@@ -9,6 +9,8 @@ config BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_X86_I686_MUSL
 	  Bootlin toolchain for x86-i686 platform built with
 	  binutils 2.29.1, musl 1.1.19, gcc 7.3.0, linux 4.1.52
 
+	  https://toolchains.bootlin.com
+
 config BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_ARMV7_EABIHF_UCLIBC
 	bool "Bootlin armv7-eabihf-uclibc toolchain"
 	depends on BR2_arm
@@ -27,6 +29,8 @@ config BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_ARMV7_EABIHF_UCLIBC
 	help
 	  Bootlin toolchain for armv7 platform built with
 	  binutils 2.29.1, uclibc 1.0.30, gcc 7.3.0, linux 4.1.52
+
+	  https://toolchains.bootlin.com
 
 config BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_ARMV7_EABIHF_MUSL
 	bool "Bootlin armv7-eabihf-musl toolchain"
@@ -47,3 +51,5 @@ config BR2_TOOLCHAIN_EXTERNAL_BOOTLIN_ARMV7_EABIHF_MUSL
 	help
 	  Bootlin toolchain for armv7 platform built with
 	  binutils 2.29.1, musl 1.1.19, gcc 7.3.0, linux 4.1.52
+
+	  https://toolchains.bootlin.com
